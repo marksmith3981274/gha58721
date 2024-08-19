@@ -22,6 +22,8 @@ spec:
         - containerPort: 8080
         imagePullPolicy: Always
 
+# ..
+
 ---
 
 apiVersion: v1
