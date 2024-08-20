@@ -18,6 +18,7 @@ jobs:
       - name: 'Build Inventory Image'
         run: |
           docker build . --tag ghcr.io/marksmith3981274/gha58721:latest
+          docker build . --tag ghcr.io/marksmith3981274/gha58721:0.0.3
           docker push ghcr.io/marksmith3981274/gha58721:latest
     # steps:
     #   - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
